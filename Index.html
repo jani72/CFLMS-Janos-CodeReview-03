@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js"></script>
+    <title>Code Preview 3</title>
+</head>
+
+<body>
+    <div id="header">
+        <div class="header_logo">
+            <img src="./img/logo.png" alt="logo">
+        </div>
+        <div class="header_banner">
+            <img id="banner" src="./img/banner.png" alt="banner">
+        </div>
+    </div>
+    <div id="navigation">
+        <nav id="navset">
+            <ul>
+                <li>Home</li>
+                <li>Team</li>
+            </ul>
+        </nav>
+    </div>
+    <div class="inhalt">
+        <div class="bildinhalt">
+            <div class="text">
+                <h1>Car Insurance</h1>
+            </div>
+            <div class="form_box">
+                <h1>Great coverage begins<br>with a costum quote</h1>
+                <form>
+                    <div class="form_box_container">
+                        <div class="form_box1">
+                            <div>
+                                <label for="Age">Age:</label>
+                                <input type="text" id="Age" name="Age">
+                            </div>
+                            <div>
+                                <label for="Country">Country</label>
+                                <select name="Country" id="Country">
+                                    <option value="Austria">Austria</option>
+                                    <option value="Hungary">Hungary</option>
+                                    <option value="Greece">Greece</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form_box2">
+                            <div>
+                                <label for="fname">First name:</label>
+                                <input type="text" id="fname" name="fname" required>
+                            </div> 
+                            <div>             
+                                <label for="horsepower">horsepower of your Car:</label>
+                                <input type="text" id="horsepower" name="horsepower">
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <button class="button" type="button" value="Submit" onclick="calculateInsurance()">Calculate</button>
+                    </div>
+                    <div>
+                        <p id="result">Printed result goes here</p>
+                    </div>
+                </form>
+            </div>
+            <img class="Hintergrundbild" src="./img/traffic-332857_1920.jpg" alt="Verkehr">
+        </div>
+        <div class="text2">
+            <p>
+            <h1>Un-Complicating car coverage</h1>
+            <h3>Understanding your coverage options shouldn´t be so hard.<br />
+                We´ll guide you through available coverage types.<br />
+                starting with who and what is covered.</h3>
+            </p>
+        </div>
+        <div class="border_box">
+            <div class="border flex1"><span>
+                    <h2>What comes standard</h2>
+                    <h3>The coverage you need<br>
+                        <br>
+                        ✓ Bodily Injury Liability<br />
+                        ✓ Property Damage<br />
+                        ✓ Medical Payments<br />
+                        <br>
+                        Benefits<br />
+                        12-month rate guarantee/ 24/7 customer<br />
+                        service/Lifetime Repair Guarantee </h3>
+                </span></div>        
+            <div class="border flex2"><span>
+                    <h2>Add-on protection & coverage</h2>
+                    <h3>For more peace of mind<br>
+                        <br>
+                        ✓ Better Car Replacement<br />
+                        ✓ Towing & Labor<br />
+                        ✓ Rental Car Coverage<br />
+                        <br>
+                        Earned Benefits<br />
+                        Accident Forgiveness/New Car<br />
+                        Replacement</h3>
+                </span></div>
+        </div>
+        <div id="footer">
+            <div class="footer_nav"><nav id="navset">
+                <ul id="ulset2">
+                    <li>Home</li>
+                    <li>Team</li>
+                </ul>
+            </nav></div>               
+                <div class="footer_logo">
+                    <img src="./img/logo-inv.png" alt="loge CodeFactory">
+                </div>
+                <div class="footer_name">Hans-Jürgen Janos - CodeFactory 2020</div>
+        </div>
+
+</body>
+
+</html>
